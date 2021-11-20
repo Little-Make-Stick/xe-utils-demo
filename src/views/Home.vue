@@ -4,73 +4,73 @@
       <el-menu router :default-active="$route.path" :collapse="isCollapse">
         <el-submenu index="1">
           <template slot="title">
-            <i class="el-icon-menu"></i>
+            <i class="el-icon-sugar"></i>
             <span slot="title">Base</span>
           </template>
           <el-menu-item index="/base/isNaN">isNaN</el-menu-item>
         </el-submenu>
         <el-submenu index="2">
           <template slot="title">
-            <i class="el-icon-menu"></i>
+            <i class="el-icon-apple"></i>
             <span slot="title">Object</span>
           </template>
           <el-menu-item index="/base/isNaN">isNaN</el-menu-item>
         </el-submenu>
         <el-submenu index="3">
           <template slot="title">
-            <i class="el-icon-menu"></i>
+            <i class="el-icon-magic-stick"></i>
             <span slot="title">Function</span>
           </template>
           <el-menu-item index="/base/isNaN">isNaN</el-menu-item>
         </el-submenu>
         <el-submenu index="4">
           <template slot="title">
-            <i class="el-icon-menu"></i>
+            <i class="el-icon-grape"></i>
             <span slot="title">Array</span>
           </template>
           <el-menu-item index="/base/isNaN">isNaN</el-menu-item>
         </el-submenu>
         <el-submenu index="5">
           <template slot="title">
-            <i class="el-icon-menu"></i>
+            <i class="el-icon-date"></i>
             <span slot="title">Date</span>
           </template>
           <el-menu-item index="/base/isNaN">isNaN</el-menu-item>
         </el-submenu>
         <el-submenu index="6">
           <template slot="title">
-            <i class="el-icon-menu"></i>
+            <i class="el-icon-ice-cream-round"></i>
             <span slot="title">Number</span>
           </template>
           <el-menu-item index="/base/isNaN">isNaN</el-menu-item>
         </el-submenu>
         <el-submenu index="7">
           <template slot="title">
-            <i class="el-icon-menu"></i>
+            <i class="el-icon-watermelon"></i>
             <span slot="title">String</span>
           </template>
           <el-menu-item index="/base/isNaN">isNaN</el-menu-item>
         </el-submenu>
         <el-submenu index="8">
           <template slot="title">
-            <i class="el-icon-menu"></i>
+            <i class="el-icon-paperclip"></i>
             <span slot="title">URL</span>
           </template>
-          <el-menu-item index="/base/isNaN">isNaN</el-menu-item>
+          <el-menu-item index="/url/url">url</el-menu-item>
         </el-submenu>
         <el-submenu index="9">
           <template slot="title">
-            <i class="el-icon-menu"></i>
+            <i class="el-icon-set-up"></i>
             <span slot="title">Web</span>
           </template>
           <el-menu-item index="/web/browse">browse</el-menu-item>
-          <el-menu-item index="/web/local">local</el-menu-item>
+          <el-menu-item index="/web/locat">locat</el-menu-item>
           <el-menu-item index="/web/getBaseURL">getBaseURL</el-menu-item>
           <el-menu-item index="/web/cookie">cookie</el-menu-item>
         </el-submenu>
         <el-submenu index="10">
           <template slot="title">
-            <i class="el-icon-menu"></i>
+            <i class="el-icon-s-tools"></i>
             <span slot="title">Setting</span>
           </template>
           <el-menu-item index="/setting/setting">setting</el-menu-item>

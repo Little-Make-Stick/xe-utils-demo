@@ -17,14 +17,19 @@ const routes = [
         component: () => import( '../views/Base/isNaN.vue')
       },
       {
+        path: 'url/url',
+        name: 'url-url',
+        component: () => import( '../views/URL/url.vue')
+      },
+      {
         path: 'web/browse',
         name: 'web-browse',
         component: () => import( '../views/Web/browse.vue')
       },
       {
-        path: 'web/local',
-        name: 'web-local',
-        component: () => import( '../views/Web/local.vue')
+        path: 'web/locat',
+        name: 'web-locat',
+        component: () => import( '../views/Web/locat.vue')
       },
       {
         path: 'web/getBaseURL',

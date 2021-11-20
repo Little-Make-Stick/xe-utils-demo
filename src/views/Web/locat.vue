@@ -1,18 +1,18 @@
 <template>
     <div class='contain'>
         <div id="accordion">
-            <h3>XEUtils.getBaseURL()</h3>
+            <h3>XEUtils.locat()</h3>
             <div>
-                <li>获取上下文路径</li>
+                <li>获取地址栏信息</li>
                 <div class="code">
-                    {{xeBaseURL}}
+                    {{xeLocat}}
                 </div>
             </div>
-            <h3>window.location.host</h3>
+            <h3>window.location</h3>
             <div>
                 <li>返回一个URL的主机名和端口</li>
                 <div class="code">
-                    {{webBaseURL}}
+                    {{webLocat}}
                 </div>
             </div>
         </div>
@@ -25,8 +25,8 @@
     export default {
         data() {
             return {
-                xeBaseURL: null,
-                webBaseURL: null,
+                xeLocat: null,
+                webLocat: null,
             }
         },
         watch: {},
@@ -34,8 +34,8 @@
         created() { 
             this.$nextTick(()=>{
                 $( "#accordion" ).accordion();
-                this.webBaseURL = window.location.host;
-                this.xeBaseURL = XEUtils.getBaseURL()
+                this.webLocat = window.location;
+                this.xeLocat = XEUtils.locat()
             })
         },
         mounted() { },
@@ -53,5 +53,9 @@
         max-width: 100%;
         overflow-x: auto;
         margin: 20px 0;
+    }
+
+    .ui-accordion .ui-accordion-content{
+        /* height: 100% !important; */
     }
 </style>
