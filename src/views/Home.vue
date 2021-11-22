@@ -49,7 +49,12 @@
             <i class="el-icon-watermelon"></i>
             <span slot="title">String</span>
           </template>
-          <el-menu-item index="/base/isNaN">isNaN</el-menu-item>
+          <el-menu-item index="/string/toValueString">toValueString</el-menu-item>
+          <el-menu-item index="/string/escape_unescape">(un)escape</el-menu-item>
+          <el-menu-item index="/string/camelCase_kebabCase">camel(kebab)Case</el-menu-item>
+          <el-menu-item index="/string/startsWith_endsWith">starts(ends)With</el-menu-item>
+          <el-menu-item index="/string/template">template</el-menu-item>
+          <el-menu-item index="/string/string">string</el-menu-item>
         </el-submenu>
         <el-submenu index="8">
           <template slot="title">
