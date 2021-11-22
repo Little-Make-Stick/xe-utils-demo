@@ -3,7 +3,7 @@
         <div id="accordion">
             <h3>camelCase </h3>
             <div>
-                <li>将带驼峰字符串转成字符串</li>
+                <li>将字符串转成驼峰字符串</li>
                 <div class="code">
                     XEUtils.camelCase('project-name') 
                 </div>
@@ -13,7 +13,7 @@
             </div>
             <h3>kebabCase </h3>
             <div>
-                <li>将字符串转成驼峰字符串</li>
+                <li>将带驼峰字符串转成字符串</li>
                 <div class="code">
                     XEUtils.kebabCase('projectName') 
                 </div>

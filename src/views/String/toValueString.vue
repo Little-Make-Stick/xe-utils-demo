@@ -24,7 +24,7 @@
         data() {
             return {
                 toStringText: [
-                    28, '28', 0, 1e-5,new Date(2021, 3, 4), false, true, null, undefined, '', NaN,'[1,2,3]','[]'
+                    28, '28', 0, 1e-5,new Date(2021, 3, 4), false, true, null, undefined, '', NaN,'[1,2,3]','[]','{a:1,b:2}'
                 ]
             }
         },
