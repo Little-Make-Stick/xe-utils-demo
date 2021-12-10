@@ -42,7 +42,9 @@
             <i class="el-icon-ice-cream-round"></i>
             <span slot="title">Number</span>
           </template>
-          <el-menu-item index="/base/isNaN">isNaN</el-menu-item>
+          <el-menu-item index="/number/operation">operation</el-menu-item>
+          <el-menu-item index="/number/formatter">formatter</el-menu-item>
+          <el-menu-item index="/number/math_opt">mathOpt</el-menu-item>
         </el-submenu>
         <el-submenu index="7">
           <template slot="title">

@@ -17,6 +17,21 @@ const routes = [
         component: () => import( '../views/Base/isNaN.vue')
       },
       {
+        path: 'number/operation',
+        name: 'number/operation',
+        component: () => import( '../views/Number/operation.vue')
+      },
+      {
+        path: 'number/formatter',
+        name: 'number/formatter',
+        component: () => import( '../views/Number/formatter.vue')
+      },
+      {
+        path: 'number/math_opt',
+        name: 'number/math_opt',
+        component: () => import( '../views/Number/mathOpt.vue')
+      },
+      {
         path: 'string/toValueString',
         name: 'string-toValueString',
         component: () => import( '../views/String/toValueString.vue')
