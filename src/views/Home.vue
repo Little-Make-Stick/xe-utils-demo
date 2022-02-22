@@ -35,7 +35,7 @@
             <i class="el-icon-date"></i>
             <span slot="title">Date</span>
           </template>
-          <el-menu-item index="/base/isNaN">isNaN</el-menu-item>
+          <el-menu-item index="/date/timestamp">timestamp</el-menu-item>
         </el-submenu>
         <el-submenu index="6">
           <template slot="title">

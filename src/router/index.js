@@ -17,6 +17,11 @@ const routes = [
         component: () => import( '../views/Base/isNaN.vue')
       },
       {
+        path: 'date/timestamp',
+        name: 'date-timestamp',
+        component: () => import( '../views/Date/timestamp.vue')
+      },
+      {
         path: 'number/operation',
         name: 'number/operation',
         component: () => import( '../views/Number/operation.vue')
